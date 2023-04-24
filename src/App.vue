@@ -1,9 +1,12 @@
-<script setup>
-</script>
-
 <template>
+  <div class="flex-col">
+    <headerComponent></headerComponent>
+    <router-view></router-view>
+  </div>
 </template>
 
-<style scoped>
+<script setup>
+import headerComponent from "./components/header.vue";
+</script>
 
-</style>
+<style scoped></style>
